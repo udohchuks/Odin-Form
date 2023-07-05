@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img class="mount" src="img/mount.jpg" alt="mount">
+            <div class="logo-div">
+                <img class="logo" src="img/odin-lined.png" alt="logo">
+                <p class="odin">ODIN</p>
+            </div>
+        </div>
+        <div class="form">
+            <div class="text">
+                <p>
+                    This is not a real life service! You know you need something like this in your 
+                    life to help you realize your deepest dreams.<br>
+                    Sign up now to get started.
+                </p>
+                <p>You know you want to.</p>
+            </div>
+            <form action="/"  id="form">
+                <div class="fieldset">
+                    <legend>Let's Do This!</legend>
+                    <div class="sub-forms">
+                        <div class="sub-form">
+                            <div class="input">
+                                <label for="first-name">*FIRST NAME</label>
+                                <input type="text" name="name" id="first-name" >
+                                <div class="display_error"></div>
+                            </div>
+                            <div class="input">
+                                <label for="email">*EMAIL</label>
+                                <input type="email" name="email" id="email" >
+                                <div class="display_error"></div>
+                            </div>
+                            <div class="input">
+                                <label for="password">*PASSWORD</label>
+                                <input type="password" name="password" id="password" >
+                                <div class="display_error"></div>
+                            </div>
+
+                        </div>
+                        <div class="sub-form">
+                            <div class="input">
+                                <label for="last-name">*LAST NAME</label>
+                                <input type="text" name="name" id="last-name" >
+                                <div class="display_error"></div>
+                            </div>
+                            <div class="input ">
+                                <label for="pnumber">PHONE NUMBER</label>
+                                <input type="tel" name="phone-num" id="telnumber">
+                                <div class="display_error"></div>
+                            </div>
+                            <div class="input">
+                                <label for="password">*CONFIRM PASSWORD</label>
+                                <input type="password" name="password" id="con_password" >
+                                <div class="display_error"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit">Create Account</button>
+            </form>
+            <div class="footer">
+                <p>Already have an account?
+                    <a href="#">Log in</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
